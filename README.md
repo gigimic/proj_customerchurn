@@ -37,7 +37,6 @@ Data preparation for model fitting:
 One hot encode the categorical variables
 Normalise the continuous variables (minmax scaling)
 
-
 Model fitting and selection:
 
 Try a few models
@@ -45,8 +44,18 @@ Logistic regression in the primal space and with different kernels
 SVM in the primal and with different Kernels
 Ensemble models - Randomn forest, XG Boost classifier
 
-Calculate the accuracy of each model
-Plot the ROC curve
+Hyparameter tuning:
+
+For each model, using sklearn gridsearchCV with arguments like model, parameter grid, and cross vadidation set.
+Then the best parameters are selected based on best_score.
+
+The ROC (Receiver operating Characteristic) curve is then calculated and plotted. 
+It is a plot between the true positive rates and false positive rates.
+The optimum threshold can be decided.
+The AUC for different models are then calculated and found the best model 
+which gives the best prediction.
+
+Then the selected model with the selected parameters can be used on the test data to make predictions.
 
 
 https://www.kaggle.com/kmalit/bank-customer-churn-prediction
