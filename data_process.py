@@ -246,6 +246,7 @@ XGB = XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,colsam
                     reg_lambda=1, scale_pos_weight=1, seed=None, silent=True, subsample=1)
 XGB.fit(df_train.loc[:, df_train.columns != 'Exited'],df_train.Exited)
 
+# review the model fit accuracy
 print('logistic primal..........')
 print(classification_report(df_train.Exited, log_primal.predict(df_train.loc[:, df_train.columns != 'Exited'])))
 
