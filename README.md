@@ -47,7 +47,7 @@ Logistic regression in the primal space and with different kernels
 SVM in the primal and with different Kernels
 Ensemble models - Randomn forest, XG Boost classifier
 
-## Hyparameter tuning:
+## Hyperparameter tuning:
 
 For each model, using sklearn gridsearchCV with arguments like model, parameter grid, and cross vadidation set. Then the best parameters are selected based on best_score.
 
