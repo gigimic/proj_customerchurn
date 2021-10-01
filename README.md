@@ -23,6 +23,9 @@ Then check the relation of categorical features with the 'Exited' number
 Similary find the relation of continuous varibales.
 Find the trends.
 
+Refer the following page for visualizations:
+https://github.com/gigimic/proj_customerchurn/blob/main/eda.pdf
+
 
 ## Feature engineering:
 
@@ -54,5 +57,3 @@ The optimum threshold can be decided.
 The AUC for different models are then calculated and found the best model which gives the best prediction.
 
 Then the selected model with the selected parameters can be used on the test data to make predictions.
-
-https://www.kaggle.com/kmalit/bank-customer-churn-prediction
