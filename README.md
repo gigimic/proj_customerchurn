@@ -1,29 +1,25 @@
 # Predition of customer churn
 ---------------------------
 
-As the first step, identify the factors contribute to customer churn
-Build a preduction model and classify if a customer is going to churn or not
+Here I try to identify the factors contribute to customer churn and build a machine learning model and predict if a customer is going to leave the bank or not.
 
 
 Data:
 
 10000 records and 14 features
-Following are the features
-CreditScore, Geography, Gender, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary
+Following are the features: CreditScore, Geography, Gender, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary
 4 of them are categorical variables: Geography, Gender, HasCrCard, IsActiveMember
 5 of them are continuous variables: Age, Tenure, Balance, NumOfProducts, EstimatedSalary
 
 
 ## Exploratory data analysis:
 
-Initially find out what percertage of the customers have churned.
+Initially the percertage of the customers have churned is calculated.
 Here 20% churned and 80% retained.
 
-Then check the relation of categorical features with the 'Exited' number
-Similary find the relation of continuous varibales.
-Find the trends.
+Then check the relation of categorical features with the 'Exited' number. Similary find the relation of continuous varibales.
 
-Refer the following page for visualizations:
+The trends are shown in the following page:
 https://github.com/gigimic/proj_customerchurn/blob/main/eda.pdf
 
 
