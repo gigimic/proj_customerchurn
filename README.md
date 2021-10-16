@@ -39,8 +39,8 @@ Normalise the continuous variables (minmax scaling)
 ## Model fitting and selection:
 
 Try a few models
-Logistic regression in the primal space and with different kernels
-SVM in the primal and with different Kernels
+Logistic regression 
+SVM 
 Ensemble models - Randomn forest, XG Boost classifier
 
 ## Hyperparameter tuning:
